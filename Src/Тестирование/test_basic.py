@@ -1,8 +1,8 @@
-# test_basic.py - только 5 обязательных тестов
 import os
 import sys
 from PIL import Image
 
+# Добавляем путь к модулю обработки изображений
 sys.path.append(os.path.dirname(__file__))
 from image_processor import ImageProcessor
 
